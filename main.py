@@ -7,7 +7,7 @@ dataframe = pd.read_csv('Data/Iris.csv')
 # print(head)
 # print(dataframe);
 """
-Step-2 : Removing the label(y) and irrelevent data
+Step-2 : Removing the label(y) and irrelevant data
         creating the label variable 
 """
 label = dataframe['Species']
