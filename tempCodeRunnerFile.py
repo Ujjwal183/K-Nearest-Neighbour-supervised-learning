@@ -1,0 +1,1 @@
+cm_display = metrics.ConfusionMatrixDisplay(cm,display_labels=[0,1])
