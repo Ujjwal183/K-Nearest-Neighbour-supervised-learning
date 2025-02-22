@@ -25,7 +25,7 @@ from sklearn.model_selection import train_test_split
 X_train,X_test,Y_train,Y_test = train_test_split(data,label,test_size=0.25,random_state=7)
 
 """
-Step-4 : Training the data
+Step-4 : Training the model
 """
 from sklearn.neighbors import KNeighborsClassifier
 classifier = KNeighborsClassifier()
